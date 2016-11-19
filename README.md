@@ -26,7 +26,7 @@ We'll use cmder as a replacement terminal, however it's a separate software and 
 
 2. Open cmder. If you have runtime error when starting cmder, you'll probably need to install VS 2015, see [the issue here](https://github.com/cmderdev/cmder/issues/501). If you got different errors, Google/GitHub will get you a fix right away, if not, report it on their repo issues section.
 
-3. Go to cmder settings by right clicking an icon on top-right of window or press `Win+Alt+P`. Navigate to **Startup -> Tasks** on sidebar, select `{cmd::Cmder}` in Predefined tasks and enter `cmd /k "%ConEmuDir%\..\init.bat"  -new_console:d:%USERPROFILE%` as a command, then save. ![Startup -> Tasks](http://i.imgur.com/vK7h0JG.png)
+3. Go to cmder settings by right clicking an icon on top-right of window or press `Win+Alt+P`. Navigate to **Startup -> Tasks** on sidebar, select `{cmd::Cmder}` in Predefined tasks and enter `cmd /k "%ConEmuDir%\..\init.bat"  -new_console:d:%USERPROFILE%` as a command, then save. ![Startup -> Tasks](http://i.imgur.com/3bsKj8v.png)
 
 4. Navigate to **Startup** on sidebar and select `{cmd::Cmder}` on *Specified named task* dropdown. [Screenshot](http://i.imgur.com/UAU4bwk.png "Startup settings").
 
@@ -85,7 +85,7 @@ Sure, I have a repo for you to see what happens if you run gulp. It has BrowserS
 
 1. Grab my [repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp). It's a standard bootstrap CSS + JS, nearly blank index.html, SCSS file and configured gulpfile.js in /gulp/.
 
-2. Navigate to this folder with your terminal with `cd` (or instead of navigating, you can add cmder to context menu [this way](https://gist.github.com/jojobyte/66c8346ed8948b9b395f). Of course, you need to edit out path to your cmder.exe file in these .reg files before running it.
+2. Navigate to this folder /gulp/ with your terminal with `cd` (or instead of navigating, you can add cmder to context menu [this way](https://gist.github.com/jojobyte/66c8346ed8948b9b395f). Of course, you need to edit out path to your cmder.exe file in these .reg files before running it.
 
 3. In terminal, go to /gulp/ and type down `gulp`. It will take several seconds to boot up a web server, boot up these scripts and then it will be up and running. 
 
