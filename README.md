@@ -12,7 +12,7 @@
 * [Terminal](#terminal)
 * [npm](#npm)
 * [gulp](#gulp)
-* [How do I set up gulp](#how-do-i-set-up-gulp)
+* [Why gulp is useful?](#why-gulp-is-useful)
 * [Can I just test it?](#can-i-just-test-it)
 
 ## Terminal
@@ -66,8 +66,8 @@ At last, we're on gulp section. This isn't going to be quick and short. Installa
 
 Good job. Maybe it was easy, maybe it wasn't, but you made it. You installed gulp on terminal on *Windows*!
 
-## How do I set up gulp?
-Well, as a courtesy, I have to explain why gulp is useful and teach you how to use it in basic style. Gulp is an automatic tool that help you out with several web development related tasks such as: 
+## Why gulp is useful?
+Gulp is an automatic tool that help you out with several web development related tasks such as: 
 
 * **[BrowserSync](https://www.browsersync.io/)** — fires up a local web server `(localhost:3000 for own computer, 198.168.1.7:3001 for other devices, etc)` for all local devices and browsers to access. It auto refresh on any file save (configurable of what folder to watch), even when you replace an image with new one. You can view your website on your computer, tablet, mobile device and other devices while coding. You can use dev tool freely because Brackets' live preview would crash if you do that.
 * **[gulp-sass](https://www.npmjs.com/package/gulp-sass)** — compiles SCSS to CSS files before BrowserSync load, very configurable to your preference. It also got *plumber* extension to stop gulp from crashing if SASS threw any errors.
@@ -75,9 +75,9 @@ Well, as a courtesy, I have to explain why gulp is useful and teach you how to u
 * **[gulp-uglify](https://github.com/terinjokes/gulp-uglify)** — remember how we compiled several js files to one vendor.js file? Let's minify it, too! Remember, it's all done automatically. Every time you edit one of js file, gulp-concat and gulp-uglify will repeat the procedure and make it ready.
 * **[gulp-rename](https://www.npmjs.com/package/gulp-rename)** — instead of having minified vendor.js, let's rename it to vendor.min.js. Automatically, of course.
 
-Remember, it doesn't only apply to js files, it also apply to css files.
+There is many more useful plugins you can use to make your web development life easier. Remember, it doesn't only apply to js files, it also apply to css files, image files (auto image minifier, auto sprint, etc) and other files. 
 
-There is many more useful plugins you can use to make your web development life easier. Find a favorite tutorial and start from there. You already have gulp installed, you're set. All what you have to do is set it up for your work environment since everyone else have it different!
+**You already have gulp installed, you're set. All what you have to do is set it up for your work environment since everyone else have it different! Go to Google and find a gulp tutorial for beginners to start learning how to configure gulpfile.js, install plugins and make it work for your workflow.**
 
 ## Can I just test it?
 
