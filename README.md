@@ -1,3 +1,5 @@
+![Gulp logo](http://i.imgur.com/RptJM5Q.png)
+
 # Start using gulp in minutes
 
 **Note: If you don't use Windows, you can skip Step 1 and proceed from Step 2.**
