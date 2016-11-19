@@ -6,7 +6,7 @@
 
 *~ Introductionary ~*
 
-*Are you a web developer that use Windows? Do you want your life to be easier and have more free time? No? Get out and continue being miserable. Is that yes? Good, please proceed, in 30 minutes to couple hours (depending how slow you are) you'll have automatic task all set up that will work for you while you work. It will help you to finish projects much faster and more effectively.*
+*Are you a web developer that use Windows? Do you want your life to be easier and have more free time? No? Get out and continue being miserable. Is that yes? Good, please proceed, in 30 minutes to couple hours (depending how slow you are) you'll have automatic task all set up that will work for you while you work. It will help you to finish projects much faster and more effectively. [You can learn more about how gulp is useful](#why-gulp-is-useful) and take a look at some of their plugins that would help you in web development.*
 
 ### Table of Contents
 * [Terminal](#terminal)
