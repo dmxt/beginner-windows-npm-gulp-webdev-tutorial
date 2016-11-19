@@ -85,8 +85,8 @@ Sure, I have a repo for you to see what happens if you run gulp. It has BrowserS
 
 1. Grab my [repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp). It's a standard bootstrap CSS + JS, nearly blank index.html, SCSS file and configured gulpfile.js in /gulp/.
 
-2. Navigate to this folder /gulp/ with your terminal with `cd` (or instead of navigating, you can add cmder to context menu [this way](https://gist.github.com/jojobyte/66c8346ed8948b9b395f). Of course, you need to edit out path to your cmder.exe file in these .reg files before running it.
+2. Navigate to this folder /gulp/ with your terminal with `cd` (or instead of navigating, you can add cmder to context menu [this way](https://gist.github.com/jojobyte/66c8346ed8948b9b395f). Of course, you need to edit out path to your cmder.exe file in these .reg files before running it.)
 
-3. In terminal, go to /gulp/ and type down `gulp`. It will take several seconds to boot up a web server, boot up these scripts and then it will be up and running. 
+3. In terminal, go to folder gulp in this repo and type down `gulp`. It will take several seconds to boot up a web server, boot up these scripts and then it will be up and running. 
 
 4. Any changes you make will be auto-refreshed and applied to the site. You can write regular CSS in .scss file and SCSS compiler will compile it to other CSS file and BrowserSync fires again and browser reloads to display the change.
