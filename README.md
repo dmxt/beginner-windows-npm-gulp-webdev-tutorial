@@ -131,14 +131,14 @@ I'm speaking in sense of configuration of automation, obviously, you don't have 
 
 ## Can I just test it?
 
-Sure, I have a repo for you to see what happens if you run gulp. It has BrowserSync and SCSS compiler. 
+Sure, I have a repo for you to see what happens if you run gulp.
 
 1. Grab my [repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp). It's a standard bootstrap CSS + JS, nearly blank index.html, SCSS file and configured gulpfile.js in /gulp/.
 
-This repo has the following gulp plugins:
-* BrowserSync (automatically refresh working files in browser on save)
-* SASS/SCSS compiler (automatically compiles SCSS to CSS on save)
-* Plumber (prevents gulp crash on SASS/SCSS error)
+This repo has standard bootstrap CSS and JS, minimal index.html, blank main.scss and the following gulp plugins:
+* **BrowserSync** (automatically refresh working files in browser on save)
+* **SCSS compiler** (automatically compiles SCSS to CSS on save). It compiles /scss/main.scss to /css/main.css so HTML file can read it.
+* **Plumber** (prevents gulp crash on SASS/SCSS error)
 
 You can view gulpfile.js to see how it's written out. I'm not a greatest coder but it just works.
 
