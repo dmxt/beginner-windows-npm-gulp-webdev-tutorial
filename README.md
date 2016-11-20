@@ -12,8 +12,8 @@
 
 ### Table of Contents
 * [Step 1 - Terminal (Windows)](#step-1-terminal-windows)
-* [Step 2 - npm](#step-2-npm)
-* [Step 3 - gulp](#step-3-gulp)
+* [Step 2 - npm](#step-2---npm)
+* [Step 3 - gulp](#step-2---gulp)
 * [Why gulp is useful?](#why-gulp-is-useful)
 * [Can I just test it?](#can-i-just-test-it)
 
