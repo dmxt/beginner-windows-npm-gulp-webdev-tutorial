@@ -82,16 +82,16 @@ Gulp is an automatic tool that help you out with several web development related
 There is many more useful plugins you can use to make your web development life easier. Here's a small list that can be useful for you.
 
 ###HTML
-* [HTML minificator](https://www.npmjs.com/package/gulp-htmlmin) — minifies HTML files
-* [HTML linter](https://www.npmjs.com/package/gulp-htmlhint) — HTML linter
+* **[gulp-hhtmlmin](https://www.npmjs.com/package/gulp-htmlmin)** — minifies HTML files
+* **[HTML linter](https://www.npmjs.com/package/gulp-htmlhint)** — HTML linter
 
 ###CSS
-* [CSS Beautify](https://www.npmjs.com/package/cssbeautify) — CSS beautifier
-* [Unused CSS cleaner](https://www.npmjs.com/package/gulp-uncss) — cleans unused CSS files (run before CSS autoprefixer, optimizer, minifier and renamer if you have these)
-* [Autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer) — add missing CSS prefixers
-* [CSS linter](https://www.npmjs.com/package/gulp-csslint) — CSS linter
+* **[cssbeautify](https://www.npmjs.com/package/cssbeautify)** — CSS beautifier
+* **[gulp-uncss](https://www.npmjs.com/package/gulp-uncss)** — cleans unused CSS files (run before CSS autoprefixer, optimizer, minifier and renamer if you have these)
+* **[gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)** — CSS autoprefixer
+* **[gulp-csslint](https://www.npmjs.com/package/gulp-csslint)** — CSS linter
 
-There's an advanced [CSS Optimizer](https://github.com/ben-eb/gulp-csso) that optimizes from
+There's an advanced CSS optimizer **[gulp-csso](https://github.com/ben-eb/gulp-csso)** that optimize from
 
 ```
 a {
@@ -117,17 +117,17 @@ a {
 
 I consider that very impressive. (Maybe you just learned little CSS here, hehe)
 
-After the optimization, run [CSS minificator](https://www.npmjs.com/package/gulp-clean-css) if you want to minify your CSS. Don't forget to use [gulp-rename](https://www.npmjs.com/package/gulp-rename) to rename the file from \*.css to \*.min.css. 
+After the optimization, run **[gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css)** if you want to minify your CSS. Don't forget to use **[gulp-rename](https://www.npmjs.com/package/gulp-rename)** to rename the file from \*.css to \*.min.css. 
 
 I'm speaking in sense of configuration of automation, obviously, you don't have to run these manually, gulp run all of these tasks in specified order each time you save a file in configured watched folder. You just have to configure all of these in gulpfile.js if you want these features.
 
 ###Images
-* [Images minifier](https://www.npmjs.com/package/gulp-imagemin) — compresses images to lower filesize without quality loss
-* [gulp-spritesmith](https://www.npmjs.com/package/gulp-spritesmith) — converts images to a spritesheet and outputs CSS variables
+* **[Images minifier](https://www.npmjs.com/package/gulp-imagemin)** — compresses images to lower filesize without quality loss
+* **[gulp-spritesmith](https://www.npmjs.com/package/gulp-spritesmith)** — converts images to a spritesheet and outputs CSS variables
 
 ###Others
-* [gulp-watch](https://www.npmjs.com/package/gulp-watch), it's a task that watch files, and when a file get modified or updated, it will run specified gulp tasks. It's essential gulp plugin and the tutorial you'll find will probably mention it.
-* [gulp-notify](https://www.npmjs.com/package/gulp-notify) — sends system error notification when gulp task fails.
+* **[gulp-watch](https://www.npmjs.com/package/gulp-watch)** — it's a task that watch files, and when a file get modified or updated, it will run specified gulp tasks. It's essential gulp plugin and the tutorial you'll find will probably mention it.
+* **[gulp-notify](https://www.npmjs.com/package/gulp-notify)** — sends system error notification when gulp task fails.
 
 ## Can I just test it?
 
@@ -148,4 +148,6 @@ You can view gulpfile.js to see how it's written out. I'm not a greatest coder b
 
 4. Finally, run `gulp`. It will take several seconds to boot up a web server, boot up these scripts and then it will be up and running. You also need to be in gulp folder to do this.
 
-4. Any changes you make will be auto-refreshed and applied to the site. You can write regular CSS in .scss file and SCSS compiler will compile it to other CSS file and BrowserSync fires again and browser reloads to display the change.
+5. Any changes you make will be auto-refreshed and applied to the site. You can write regular CSS in .scss file and SCSS compiler will compile it to other CSS file and BrowserSync fires again and browser reloads to display the change.
+
+If you use Bootstrap, you can use this folder as a skeleton to start a new website. Configure gulp!
