@@ -133,7 +133,7 @@ I'm speaking in sense of configuration of automation, obviously, you don't have 
 
 Sure, I have a repo for you to see what happens if you run gulp.
 
-1. Grab my [repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp).
+1. Download this folder in my [repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp).
 
 This repo has standard bootstrap CSS and JS, minimal index.html, blank main.scss and configured gulpfile.js with following gulp plugins:
 * **BrowserSync** — automatically refresh in browser when the watched file is saved.
