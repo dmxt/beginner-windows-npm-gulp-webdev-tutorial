@@ -91,7 +91,7 @@ There is many more useful plugins you can use to make your web development life 
 * **[gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)** — CSS autoprefixer
 * **[gulp-csslint](https://www.npmjs.com/package/gulp-csslint)** — CSS linter
 
-####CSS Optimizer, minifier and renamer
+####CSS optimizer, minifier and renamer
 **[gulp-csso](https://github.com/ben-eb/gulp-csso)** — this is an advanced CSS optimizer that optimize from
 
 ```
@@ -120,7 +120,7 @@ I consider that very impressive. (Maybe you just learned little CSS here, hehe)
 
 After the optimization, run **[gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css)** if you want to minify your CSS. Don't forget to use **[gulp-rename](https://www.npmjs.com/package/gulp-rename)** to rename the file from \*.css to \*.min.css. 
 
-I'm speaking in sense of configuration of automation, obviously, you don't have to run these manually, gulp run all of these tasks in specified order each time you save a file in configured watched folder. You just have to configure all of these in gulpfile.js if you want these features.
+It's all have to be configured in `gulpfile.js`.
 
 ###Images
 * **[gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)** — compresses images to lower filesize without quality loss
