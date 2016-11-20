@@ -91,7 +91,8 @@ There is many more useful plugins you can use to make your web development life 
 * **[gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)** — CSS autoprefixer
 * **[gulp-csslint](https://www.npmjs.com/package/gulp-csslint)** — CSS linter
 
-There's an advanced CSS optimizer **[gulp-csso](https://github.com/ben-eb/gulp-csso)** that optimize from
+####CSS Optimizer, minifier and renamer
+**[gulp-csso](https://github.com/ben-eb/gulp-csso)** — this is an advanced CSS optimizer that optimize from
 
 ```
 a {
