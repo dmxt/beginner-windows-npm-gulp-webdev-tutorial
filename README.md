@@ -133,14 +133,12 @@ I'm speaking in sense of configuration of automation, obviously, you don't have 
 
 Sure, I have a repo for you to see what happens if you run gulp.
 
-1. Grab my [repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp). It's a standard bootstrap CSS + JS, nearly blank index.html, SCSS file and configured gulpfile.js in /gulp/.
+1. Grab my [repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp).
 
-This repo has standard bootstrap CSS and JS, minimal index.html, blank main.scss and the following gulp plugins:
+This repo has standard bootstrap CSS and JS, minimal index.html, blank main.scss and configured gulpfile.js with following gulp plugins:
 * **BrowserSync** — automatically refresh in browser when the watched file is saved.
 * **SCSS compiler** — automatically compiles SCSS to CSS on save. It compiles `/scss/main.scss` to `/css/main.css` so HTML file can read it.
 * **Plumber** — prevents gulp crash on SCSS error.
-
-You can view gulpfile.js to see how it's written out. I'm not a greatest coder but it just works.
 
 2. Navigate to this folder /gulp/ with your terminal with `cd` (or instead of navigating, you can add cmder to context menu [with a .reg file](https://gist.github.com/jojobyte/66c8346ed8948b9b395f). Of course, you need to edit paths to your path to cmder.exe file in a .reg file before running it.)
 
@@ -150,4 +148,4 @@ You can view gulpfile.js to see how it's written out. I'm not a greatest coder b
 
 5. Any changes you make will be auto-refreshed and applied to the site. You can write regular CSS in .scss file and SCSS compiler will compile it to other CSS file and BrowserSync fires again and browser reloads to display the change. If gulp crashed, just run `gulp` again.
 
-If you use Bootstrap, you can use this folder as a base to start a new website. **Configure and embrace gulp!** 💪
+If you use Bootstrap, you can use my repo as a base to start a new website. **Configure and embrace gulp!** 💪
