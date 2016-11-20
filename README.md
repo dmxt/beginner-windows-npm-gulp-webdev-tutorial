@@ -2,9 +2,7 @@
 
 # Start using gulp in minutes
 
-**⚠️ Notice: If you don't use Windows, you can skip Step 1 and start on Step 2.**
-
-Step one is for Windows users to install UNIX-like terminal that is sustainable for work, while Linux and MacOS already have one.
+**⚠️ Notice: If you don't use Windows, you can skip Step 1 and start on Step 2.** Step one is for Windows users to install UNIX-like terminal that is sustainable for work, while Linux and MacOS already have one.
 
 *~ Introductionary ~*
 
