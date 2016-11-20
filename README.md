@@ -150,4 +150,4 @@ You can view gulpfile.js to see how it's written out. I'm not a greatest coder b
 
 5. Any changes you make will be auto-refreshed and applied to the site. You can write regular CSS in .scss file and SCSS compiler will compile it to other CSS file and BrowserSync fires again and browser reloads to display the change.
 
-If you use Bootstrap, you can use this folder as a skeleton to start a new website. Configure gulp!
+If you use Bootstrap, you can use this folder as a skeleton to start a new website. **Configure and embrace gulp!** 💪
