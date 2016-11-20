@@ -73,7 +73,7 @@ Good job. Maybe it was easy, maybe it wasn't, but you made it. You installed gul
 ## Why gulp is useful?
 Gulp is an automatic tool that help you out with several web development related tasks such as: 
 
-* **[BrowserSync](https://www.browsersync.io/)** — fires up a local web server `(localhost:3000 for own computer, 198.168.1.7:3001 for other devices, etc)` for all local devices and browsers to access. It auto refresh on any file save (configurable of what folder to watch), even when you replace an image with new one. You can view your website on your computer, tablet, mobile device and other devices while coding. You can use dev tool freely because Brackets' live preview would crash if you do that.
+* **[browser-sync](https://www.browsersync.io/)** — fires up a local web server `(localhost:3000 for own computer, 198.168.1.7:3001 for other devices, etc)` for all local devices and browsers to access. It auto refresh on any file save (configurable of what folder to watch), even when you replace an image with new one. You can view your website on your computer, tablet, mobile device and other devices while coding. You can use dev tool freely because Brackets' live preview would crash if you do that.
 * **[gulp-sass](https://www.npmjs.com/package/gulp-sass)** — compiles SCSS to CSS files before BrowserSync load, very configurable to your preference. You'll need [gulp-plumber](https://www.npmjs.com/package/gulp-plumber) to stop gulp from crashing if SASS threw any error or any other type of error.
 * **[gulp-concat](https://github.com/contra/gulp-concat)** — it's usual to have several separated external dependencies files like jQuery, Modernizr, and more, plus you have to link them all in HTML/PHP files. With concat, it can compile all of these js files to one vendor.js file.
 * **[gulp-uglify](https://github.com/terinjokes/gulp-uglify)** — remember how we compiled several js files to one vendor.js file? Let's minify it, too! Remember, it's all done automatically. Every time you edit one of js file, gulp-concat and gulp-uglify will repeat the procedure and make it ready.
@@ -82,8 +82,8 @@ Gulp is an automatic tool that help you out with several web development related
 There is many more useful plugins you can use to make your web development life easier. Here's a small list that can be useful for you.
 
 ###HTML
-* **[gulp-hhtmlmin](https://www.npmjs.com/package/gulp-htmlmin)** — minifies HTML files
-* **[HTML linter](https://www.npmjs.com/package/gulp-htmlhint)** — HTML linter
+* **[gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin)** — minifies HTML files
+* **[htmlhint](https://www.npmjs.com/package/gulp-htmlhint)** — HTML linter/hinter
 
 ###CSS
 * **[cssbeautify](https://www.npmjs.com/package/cssbeautify)** — CSS beautifier
