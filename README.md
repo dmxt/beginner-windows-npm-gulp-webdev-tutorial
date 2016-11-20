@@ -91,7 +91,7 @@ There is many more useful plugins you can use to make your web development life 
 * [Autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer) — add missing CSS prefixers
 * [CSS linter](https://www.npmjs.com/package/gulp-csslint) — CSS linter
 
-I want to mention an advanced [CSS Optimizer](https://github.com/ben-eb/gulp-csso) that minify from
+There's an advanced [CSS Optimizer](https://github.com/ben-eb/gulp-csso) that optimizes from
 
 ```
 a {
@@ -115,9 +115,11 @@ a {
 }
 ```
 
-I consider that very impressive. 
+I consider that very impressive. (Maybe you just learned little CSS here, hehe)
 
-After the optimization, run [CSS minificator](https://www.npmjs.com/package/gulp-clean-css) if you want to minify your CSS. Of course, don't forget to use [gulp-rename](https://www.npmjs.com/package/gulp-rename) to rename the file from \*.css to \*.min.css. I'm speaking in sense of configuration of automation, obviously, you don't have to run these manually, gulp run all of these tasks in specified order each time you save a file in configured watched folder.
+After the optimization, run [CSS minificator](https://www.npmjs.com/package/gulp-clean-css) if you want to minify your CSS. Don't forget to use [gulp-rename](https://www.npmjs.com/package/gulp-rename) to rename the file from \*.css to \*.min.css. 
+
+I'm speaking in sense of configuration of automation, obviously, you don't have to run these manually, gulp run all of these tasks in specified order each time you save a file in configured watched folder. You just have to configure all of these in gulpfile.js if you want these features.
 
 ###Images
 * [Images minifier](https://www.npmjs.com/package/gulp-imagemin) — compresses images to lower filesize without quality loss
