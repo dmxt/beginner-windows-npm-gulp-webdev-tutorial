@@ -122,7 +122,7 @@ After the optimization, run **[gulp-clean-css](https://www.npmjs.com/package/gul
 I'm speaking in sense of configuration of automation, obviously, you don't have to run these manually, gulp run all of these tasks in specified order each time you save a file in configured watched folder. You just have to configure all of these in gulpfile.js if you want these features.
 
 ###Images
-* **[Images minifier](https://www.npmjs.com/package/gulp-imagemin)** — compresses images to lower filesize without quality loss
+* **[gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)** — compresses images to lower filesize without quality loss
 * **[gulp-spritesmith](https://www.npmjs.com/package/gulp-spritesmith)** — converts images to a spritesheet and outputs CSS variables
 
 ###Others
