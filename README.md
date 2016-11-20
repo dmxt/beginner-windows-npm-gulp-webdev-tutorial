@@ -2,11 +2,19 @@
 
 # Start using gulp in minutes
 
-**Note: If you don't use Windows, you can skip Step 1 and proceed from Step 2.**
+**⚠️ Notice: If you don't use Windows, you can skip Step 1 and start on Step 2.**
+
+Step one is for Windows users to install UNIX-like terminal that is sustainable for work, while Linux and MacOS already have one.
+
+---
 
 *~ Introductionary ~*
 
-*Are you a web developer that use Windows? Do you want your life to be easier and have more free time? No? Get out and continue being miserable. Oh, was that yes? Good, please proceed, in 30 minutes to couple hours (depending how slow you are) you'll have automatic task all set up that will work for you while you work. It will help you to finish projects much faster and more effectively. [You can learn more about how gulp is useful](#why-gulp-is-useful) and take a look at some of their plugins that would help you in web development.*
+*Are you a web developer that use Windows? Do you want your life to be easier and have more free time? No? Get out and continue being miserable. Oh, was that yes? Good, please proceed, in 30 minutes to couple hours (depending how slow you are) you'll have automatic task all set up that will work for you while you work.*
+
+*It will help you to finish projects much faster and more effectively. [You can learn more about how gulp is useful](#why-gulp-is-useful) and take a look at some of their plugins that would help you in web development.*
+
+---
 
 ### Table of Contents
 * [Terminal (Windows)](#terminal-windows)
