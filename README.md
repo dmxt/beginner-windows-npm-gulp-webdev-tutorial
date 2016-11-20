@@ -126,8 +126,8 @@ I'm speaking in sense of configuration of automation, obviously, you don't have 
 * [gulp-spritesmith](https://www.npmjs.com/package/gulp-spritesmith) — converts images to a spritesheet and outputs CSS variables
 
 ###Others
-In the tutorial you'll find most likely will mention [gulp-watch](https://www.npmjs.com/package/gulp-watch), it's a task that watch files, and when a file get modified or updated, it will run specified gulp tasks.
-[gulp-notify](https://www.npmjs.com/package/gulp-notify) — sends system error notification when gulp task fails.
+* [gulp-watch](https://www.npmjs.com/package/gulp-watch), it's a task that watch files, and when a file get modified or updated, it will run specified gulp tasks. It's essential gulp plugin and the tutorial you'll find will probably mention it.
+* [gulp-notify](https://www.npmjs.com/package/gulp-notify) — sends system error notification when gulp task fails.
 
 ## Can I just test it?
 
