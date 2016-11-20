@@ -9,13 +9,13 @@
 *Are you a web developer that use Windows? Do you want your life to be easier and have more free time? No? Get out and continue being miserable. Is that yes? Good, please proceed, in 30 minutes to couple hours (depending how slow you are) you'll have automatic task all set up that will work for you while you work. It will help you to finish projects much faster and more effectively. [You can learn more about how gulp is useful](#why-gulp-is-useful) and take a look at some of their plugins that would help you in web development.*
 
 ### Table of Contents
-* [Terminal](#terminal)
+* [Terminal (Windows)](#terminal)
 * [npm](#npm)
 * [gulp](#gulp)
 * [Why gulp is useful?](#why-gulp-is-useful)
 * [Can I just test it?](#can-i-just-test-it)
 
-## Terminal
+## Terminal (Windows)
 You need a terminal to use npm and gulp. Terminal is available out of the box on Linux and OS X. Windows has it as well but cmd and PowerShell is not sustainable for development work. You do not need to be experienced with terminal to function, but learning basics would help. Just few commands like `cd`, `ls`, `mkdir`, `rm`, and stuff, you can learn it [over here](https://www.codecademy.com/learn/learn-the-command-line), it will help you in long run so you won't get stuck in terminal for minutes to hours over a stupid `ls` command. If you don't like this site, this [alternative](https://linuxjourney.com/lesson/less-command) might work.
 
 We'll use cmder as a replacement terminal, however it's a separate software and does not directly replace default terminal.
@@ -141,7 +141,7 @@ This repo has standard bootstrap CSS and JS, minimal index.html, blank main.scss
 * **SCSS compiler** — automatically compiles SCSS to CSS on save. It compiles `/scss/main.scss` to `/css/main.css` so HTML file can read it.
 * **Plumber** — prevents gulp crash on SCSS error.
 
-2. Navigate to this folder /gulp/ with your terminal with `cd` (or instead of navigating, you can add cmder to context menu [with a .reg file](https://gist.github.com/jojobyte/66c8346ed8948b9b395f). Of course, you need to edit paths to your path to cmder.exe file in a .reg file before running it.)
+2. Navigate to this folder /gulp/ with your terminal with `cd` (Windows only: instead of navigating, you can add cmder to context menu [with a .reg file](https://gist.github.com/jojobyte/66c8346ed8948b9b395f). Of course, you need to edit paths to your path to cmder.exe file in a .reg file before running it.)
 
 3. Install dependencies by running `npm install --save-dev` in terminal. It reads gulpfile.js and download & install necessary files for gulp to run. (You need to be in 'gulp' folder to do this)
 
