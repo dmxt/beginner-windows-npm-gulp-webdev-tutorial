@@ -66,6 +66,10 @@ At last, we're on gulp section. This isn't going to be quick and short. Installa
 
 Good job. Maybe it was easy, maybe it wasn't, but you made it. You installed gulp on terminal on *Windows*!
 
+**You already have gulp installed, you're set. All what you have to do is set it up for your work environment since everyone else have it different! Go to Google and find a gulp tutorial for beginners to start learning how to configure gulpfile.js, install plugins and make it work for your workflow.**
+
+**I also listed useful gulp plugins below that you can use it as a reference after being more familiarized with gulp configuration from tutorials you find.**
+
 ## Why gulp is useful?
 Gulp is an automatic tool that help you out with several web development related tasks such as: 
 
@@ -75,9 +79,53 @@ Gulp is an automatic tool that help you out with several web development related
 * **[gulp-uglify](https://github.com/terinjokes/gulp-uglify)** — remember how we compiled several js files to one vendor.js file? Let's minify it, too! Remember, it's all done automatically. Every time you edit one of js file, gulp-concat and gulp-uglify will repeat the procedure and make it ready.
 * **[gulp-rename](https://www.npmjs.com/package/gulp-rename)** — instead of having minified vendor.js, let's rename it to vendor.min.js. Automatically, of course.
 
-There is many more useful plugins you can use to make your web development life easier. Remember, it doesn't only apply to js files, it also apply to css files, image files (auto image minifier, auto sprint, etc) and other files. 
+There is many more useful plugins you can use to make your web development life easier. Here's a small list that can be useful for you.
 
-**You already have gulp installed, you're set. All what you have to do is set it up for your work environment since everyone else have it different! Go to Google and find a gulp tutorial for beginners to start learning how to configure gulpfile.js, install plugins and make it work for your workflow.**
+###HTML
+* [HTML minificator](https://www.npmjs.com/package/gulp-htmlmin) — minifies HTML files
+* [HTML linter](https://www.npmjs.com/package/gulp-htmlhint) — HTML linter
+
+###CSS
+* [CSS Beautify](https://www.npmjs.com/package/cssbeautify) — CSS beautifier
+* [Unused CSS cleaner](https://www.npmjs.com/package/gulp-uncss) — cleans unused CSS files (run before CSS autoprefixer, optimizer, minifier and renamer if you have these)
+* [Autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer) — add missing CSS prefixers
+* [CSS linter](https://www.npmjs.com/package/gulp-csslint) — CSS linter
+
+I want to mention an advanced [CSS Optimizer](https://github.com/ben-eb/gulp-csso) that minify from
+
+```
+a {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    background-image: url('example.png');
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+```
+to
+
+```
+a {
+  font: italic bold 14px/18px Arial;
+  background: red url('example.png') no-repeat / cover;
+}
+```
+
+I consider that very impressive. 
+
+After the optimization, run [CSS minificator](https://www.npmjs.com/package/gulp-clean-css) if you want to minify your CSS. Of course, don't forget to use [gulp-rename](https://www.npmjs.com/package/gulp-rename) to rename the file from \*.css to \*.min.css. I'm speaking in sense of configuration of automation, obviously, you don't have to run these manually, gulp run all of these tasks in specified order each time you save a file in configured watched folder.
+
+###Images
+* [Images minifier](https://www.npmjs.com/package/gulp-imagemin) — compresses images to lower filesize without quality loss
+* [gulp-spritesmith](https://www.npmjs.com/package/gulp-spritesmith) — converts images to a spritesheet and outputs CSS variables
+
+###Others
+In the tutorial you'll find most likely will mention [gulp-watch](https://www.npmjs.com/package/gulp-watch), it's a task that watch files, and when a file get modified or updated, it will run specified gulp tasks.
+[gulp-notify](https://www.npmjs.com/package/gulp-notify) — sends system error notification when gulp task fails.
 
 ## Can I just test it?
 
@@ -85,8 +133,17 @@ Sure, I have a repo for you to see what happens if you run gulp. It has BrowserS
 
 1. Grab my [repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp). It's a standard bootstrap CSS + JS, nearly blank index.html, SCSS file and configured gulpfile.js in /gulp/.
 
-2. Navigate to this folder /gulp/ with your terminal with `cd` (or instead of navigating, you can add cmder to context menu [this way](https://gist.github.com/jojobyte/66c8346ed8948b9b395f). Of course, you need to edit out path to your cmder.exe file in these .reg files before running it.)
+This repo has the following gulp plugins:
+* BrowserSync (automatically refresh working files in browser on save)
+* SASS/SCSS compiler (automatically compiles SCSS to CSS on save)
+* Plumber (prevents gulp crash on SASS/SCSS error)
 
-3. In terminal, go to folder gulp in this repo and type down `gulp`. It will take several seconds to boot up a web server, boot up these scripts and then it will be up and running. 
+You can view gulpfile.js to see how it's written out. I'm not a greatest coder but it just works.
+
+2. Navigate to this folder /gulp/ with your terminal with `cd` (or instead of navigating, you can add cmder to context menu [with a .reg file](https://gist.github.com/jojobyte/66c8346ed8948b9b395f). Of course, you need to edit paths to your path to cmder.exe file in a .reg file before running it.)
+
+3. Install dependencies by running `npm install --save-dev` in terminal. It reads gulpfile.js and download & install necessary files for gulp to run. (You need to be in 'gulp' folder to do this)
+
+4. Finally, run `gulp`. It will take several seconds to boot up a web server, boot up these scripts and then it will be up and running. You also need to be in gulp folder to do this.
 
 4. Any changes you make will be auto-refreshed and applied to the site. You can write regular CSS in .scss file and SCSS compiler will compile it to other CSS file and BrowserSync fires again and browser reloads to display the change.
