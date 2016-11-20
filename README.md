@@ -11,7 +11,7 @@
 *It will help you to finish projects much faster and more effectively. [You can learn more about how gulp is useful](#why-gulp-is-useful) and take a look at some of their plugins that would help you in web development.*
 
 ### Table of Contents
-* [Step 1 - Terminal (Windows)](#step-1-terminal-windows)
+* [Step 1 - Terminal (Windows)](#step-1---terminal-windows)
 * [Step 2 - npm](#step-2---npm)
 * [Step 3 - gulp](#step-2---gulp)
 * [Why gulp is useful?](#why-gulp-is-useful)
