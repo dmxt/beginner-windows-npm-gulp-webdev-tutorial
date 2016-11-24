@@ -2,7 +2,9 @@
 
 # Start using gulp in minutes
 
-**⚠️ Note: If you do not use Windows, you can go straight to Step 2.** Step 1 is for Windows users to install a UNIX-like terminal that is usable for work - Linux and MacOS already have one.
+Gulp is a terminal software and using it on Windows can be challenging. This guide will help you to start using gulp, however this guide is not limited to Windows, it also applies to Linux and macOS users.
+
+**⚠️ Note: If you do not use Windows, you can go straight to Step 2.** Step 1 is for Windows users to install a UNIX-like terminal that is usable for work - Linux and macOS already have one.
 
 *~ Introduction ~*
 
@@ -18,7 +20,7 @@
 * [Can I just test it?](#can-i-just-test-it)
 
 ## Step 1 - Terminal (Windows)
-You need a terminal to use npm and gulp. A terminal is available out of the box on Linux and OS X. Windows has it as well but cmd and PowerShell is not usable for development work. You do not need to be experienced with terminal to use it properly, but learning some basics would help, such as a few commands like `cd`, `ls`, `mkdir`, `rm`. You can learn it [here](https://www.codecademy.com/learn/learn-the-command-line). It will help you in long run so you won't get stuck at a terminal for minutes to hours over a small mistake. If you don't like this site, [this alternative](https://linuxjourney.com/lesson/less-command) might work.
+You need a terminal to use npm and gulp. A terminal is available out of the box on Linux and macOS. Windows has it as well but cmd and PowerShell is not usable for development work. You do not need to be experienced with terminal to use it properly, but learning some basics would help, such as a few commands like `cd`, `ls`, `mkdir`, `rm`. You can learn it [here](https://www.codecademy.com/learn/learn-the-command-line). It will help you in long run so you won't get stuck at a terminal for minutes to hours over a small mistake. If you don't like this site, [this alternative](https://linuxjourney.com/lesson/less-command) might work.
 
 We will use cmder as a replacement terminal. However, it is a separate software and does not directly replace default terminal.
 
