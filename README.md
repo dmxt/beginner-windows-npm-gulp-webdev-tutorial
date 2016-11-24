@@ -4,25 +4,25 @@
 
 Gulp is a terminal software and using it on Windows can be challenging. This guide will help you to start using Gulp, however this guide is not limited to Windows, it also applies to Linux and macOS users.
 
-**⚠️ Note: If you do not use Windows, you can go straight to Step 2.** Step 1 is for Windows users to install a UNIX-like terminal that is usable for work - Linux and macOS already have one.
-
 *~ Introduction ~*
 
 *Do you want your life to be easier and to have more free time? No? Get out and continue being miserable. Oh, was that a yes? Good - please proceed. In thirty minutes to a couple hours (depending on how slow you are) you'll have task automation set up to work for you while you work.*
 
 *While you code and hit CTRL+S on one of your file that is watched by Gulp, Gulp will compile your SCSS file to CSS, clean unused CSS, add missing css prefixes, optimize your CSS file, minify it then rename it it *.min.css, compress all JS files to one file, beautify it, minify it then rename it to *.min.js, and optimize your images to smallest possible filesize without quality loss, all only would be done if files are modified and all of these tasks would be done in few milliseconds, then finally refresh your browser so you can see changes you just made on your computer, tablet, phone and other devices.*
 
-*Gulp is configurable, you can add less or more features. Gulp has no task on default. After configuring it to your liking, you'll eventually can't live without it. [You can learn more about how Gulp is useful](#why-is-gulp-useful) and take a look at some of their plugins that could help you in web development.*
+*Gulp is configurable, you can add less or more features. Gulp has no task on default. After configuring it to your liking, you'll eventually can't live without it. [You can learn more about how Gulp is useful](#useful-gulp-plugins) and take a look at some of their plugins that could help you in web development.*
 
 ### Table of Contents
 * [Step 1 - Terminal (Windows)](#step-1---terminal-windows)
 * [Step 2 - npm](#step-2---npm)
 * [Step 3 - Gulp](#step-2---gulp)
-* [Why is Gulp useful?](#why-is-gulp-useful)
+* [Why is Gulp useful?](#useful-gulp-plugins)
 * [Can I just test it?](#can-i-just-test-it)
 
 ## Step 1 - Terminal (Windows)
-You need a terminal to use npm and Gulp. A terminal is available out of the box on Linux and macOS. Windows has it as well but cmd and PowerShell is not usable for development work. You do not need to be experienced with terminal to use it properly, but learning some basics would help, such as a few commands like `cd`, `ls`, `mkdir`, `rm`. You can learn it [here](https://www.codecademy.com/learn/learn-the-command-line). It will help you in long run so you won't get stuck at a terminal for minutes to hours over a small mistake. If you don't like this site, [this alternative](https://linuxjourney.com/lesson/less-command) might work.
+**⚠️ Note: If you do not use Windows, you can go straight to Step 2.** Step 1 is for Windows users to install a UNIX-like terminal that is usable for work - Linux and macOS already have one.
+
+Ok, Windows users, you need a terminal to use npm and Gulp. A functional terminal is available out of the box on Linux and macOS, and Windows has it as well but cmd and PowerShell is not sustainable for in comparison with UNIX console. You do not need to be experienced with terminal to use it properly, but learning some basics would help, such as a few commands like `cd`, `ls`, `mkdir`, `rm`, highlight to copy, and right-click to paste. You can learn it [here](https://www.codecademy.com/learn/learn-the-command-line). It will help you in long run so you won't get stuck at a terminal for minutes to hours over a small mistake. If you don't like this site, [this alternative](https://linuxjourney.com/lesson/less-command) might work.
 
 We will use cmder as a replacement terminal. However, it is a separate software and does not directly replace default terminal.
 
@@ -53,8 +53,6 @@ If you have never used cmder before, learning few hotkeys will help you in long 
 
 *[Source: http://cmder.net/](http://cmder.net/)*
 
-
-
 ## Step 2 - npm
 
 We need npm to install Gulp, so we're going to do that.
@@ -72,11 +70,11 @@ Finally we reach the Gulp section. This isn't going to be quick and short. Insta
 
 Good job. Maybe it was easy, maybe it was not, but you made it. You installed Gulp using a terminal on *Windows*!
 
-**You already have Gulp installed, you're set. All you have to do is set it up for your particular work environment, as everyone has different configurations! Go to Google and find a Gulp tutorial for beginners to start learning how to configure gulpfile.js, install plugins and make it work for your workflow.**
+**You already have Gulp installed, you're set. All you have to do is set it up for your particular work environment, as everyone has different configurations! Go to Google and find a Gulp tutorial for beginners to start learning how to configure gulpfile.js, install plugins and make it work for your workflow. [Google search](https://www.google.com/search?q=gulp+tutorial+beginner).**
 
-**I also listed useful Gulp plugins below that you can use it as a reference after becoming more familiar with Gulp configuration from tutorials you find.**
+I also listed useful Gulp plugins below that you can use it as a reference after becoming more familiar with Gulp configuration from tutorials you find. All of these plugins have basic tutorial how to apply it to your gulpfile.js expecting that you already know how to configure gulpfile.js, that's why I asked you to learn how to configure gulpfile.js to install plugins.
 
-## Why is Gulp useful?
+## Useful Gulp plugins
 Gulp is an automatic tool that help you out with several web development related tasks such as: 
 
 * **[browser-sync](https://www.browsersync.io/)** — fires up a local web server `(localhost:3000 for own computer, 198.168.x.x:3001 for other devices, etc)` for all local devices and browsers to access. It auto-refreshes on any file save (and can be configured to watch certain folders), even when you replace an image with new one. You can view your website on your computer, tablet, mobile device and other devices while coding. You can use dev tool freely, while Brackets' live preview would crash if you do that.
