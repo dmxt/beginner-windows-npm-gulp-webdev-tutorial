@@ -75,7 +75,7 @@ Good job. Maybe it was easy, maybe it was not, but you made it. You installed Gu
 Try to familiarze yourself with Gulp and gulpfile.js configuration with tutorials, then you can create your own configuration for your development workflow. I listed some useful Gulp pugins below you can use as a reference. Most of these plugins have a basic tutorial expecting that you already know how to configure gulpfile.js, that's why knowing how to configure Gulp is important.
 
 ## Useful Gulp plugins
-**⚠️ Note: If you have trouble with one of these plugins, you can check their GitHub repo and search or open an issue about the problem. If the plugin is active, you should get a solution pretty quickly.**
+**⚠️ Note: If you have trouble with one of these plugins, do the following: First, make sure you're not being stupid. Second, if it's actually plugins fault, not your fault, then you can check their GitHub repo and search or open an issue about the problem. If the plugin is active, you should get a solution pretty quickly.**
 
 Gulp is an automatic tool that help you out with several web development related tasks such as: 
 
