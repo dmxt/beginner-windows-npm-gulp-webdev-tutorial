@@ -70,20 +70,22 @@ Finally we reach the Gulp section. This isn't going to be quick and short. Insta
 
 Good job. Maybe it was easy, maybe it was not, but you made it. You installed Gulp using a terminal on *Windows*!
 
-**You already have Gulp installed, you're set. All you have to do is set it up for your particular work environment, as everyone has different configurations! Go to Google and find a Gulp tutorial for beginners to start learning how to configure gulpfile.js, install plugins and make it work for your workflow. [Google search](https://www.google.com/search?q=gulp+tutorial+beginner).**
+**You already have Gulp installed, you're set. All you have to do is set it up for your particular work environment, as everyone has different configurations! Go to Google and find a Gulp tutorial for beginners to start learning how to configure gulpfile.js, install plugins and make it work for your workflow. You can try [this tutorial](https://css-tricks.com/gulp-for-beginners/) or just use [Google](https://www.google.com/search?q=gulp+tutorial+beginner).**
 
-I also listed useful Gulp plugins below that you can use it as a reference after becoming more familiar with Gulp configuration from tutorials you find. All of these plugins have basic tutorial how to apply it to your gulpfile.js expecting that you already know how to configure gulpfile.js, that's why I asked you to learn how to configure gulpfile.js to install plugins.
+Try to familiarze yourself with Gulp and gulpfile.js configuration with tutorials, then you can create your own configuration for your development workflow. I listed some useful Gulp pugins below you can use as a reference. Most of these plugins have a basic tutorial expecting that you already know how to configure gulpfile.js, that's why knowing how to configure Gulp is important.
 
 ## Useful Gulp plugins
+**⚠️ Note: If you have trouble with one of these plugins, you can check their GitHub repo and search or open an issue about the problem. If the plugin is active, you should get a solution pretty quickly.**
+
 Gulp is an automatic tool that help you out with several web development related tasks such as: 
 
-* **[browser-sync](https://www.browsersync.io/)** — fires up a local web server `(localhost:3000 for own computer, 198.168.x.x:3001 for other devices, etc)` for all local devices and browsers to access. It auto-refreshes on any file save (and can be configured to watch certain folders), even when you replace an image with new one. You can view your website on your computer, tablet, mobile device and other devices while coding. You can use dev tool freely, while Brackets' live preview would crash if you do that.
+* **[browser-sync](https://www.browsersync.io/)** — fires up a local web server for all local devices and browsers to access. `localhost:3000 for own computer, 192.168.x.x:3000/10.0.x.x, etc (ROUTER IP ADDRESS:GULP PORT). If you run another gulp task, it will provide you new port like 3001, 3002, 3003, etc` It auto-refreshes on any file save (and can be configured to watch certain folders), even when you replace an image with new one. You can view your website on your computer, tablet, mobile device and other devices while coding. You can use dev tool freely, while Brackets' live preview would crash if you do that.
 * **[gulp-sass](https://www.npmjs.com/package/gulp-sass)** — compiles SCSS to CSS files before BrowserSync loads, highly configurable. You'll need [gulp-plumber](https://www.npmjs.com/package/gulp-plumber) to stop Gulp from crashing if SASS produces any error.
 * **[gulp-concat](https://github.com/contra/gulp-concat)** — it is normal to have several separated external dependencies files like jQuery, Modernizr, and more, along with linking them all in HTML/PHP files. With concat, it can compile all of these js files to one vendor.js file.
 * **[gulp-uglify](https://github.com/terinjokes/gulp-uglify)** — remember how we compiled several js files to one vendor.js file? Let us minify it, too! Remember, it is all done automatically. Every time you edit one of js file, gulp-concat and gulp-uglify will repeat the procedure and make it ready.
 * **[gulp-rename](https://www.npmjs.com/package/gulp-rename)** — instead of having minified vendor.js, let's rename it to vendor.min.js. Automatically, of course.
 
-There is many more useful plugins you can use to make your web development life easier. Here's a small list that can be useful for you.
+Here's a list of some more Gulp's plugins that can be useful for you. Any more than that, you will need to use a search engine or [npmjs.com](npmjs.com).
 
 ###HTML
 * **[gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin)** — minifies HTML files
