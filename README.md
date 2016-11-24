@@ -1,6 +1,6 @@
 ![Gulp logo](http://i.imgur.com/RptJM5Q.png)
 
-# Start using Gulpin minutes
+# Start using Gulp in minutes
 
 Gulp is a terminal software and using it on Windows can be challenging. This guide will help you to start using Gulp, however this guide is not limited to Windows, it also applies to Linux and macOS users.
 
@@ -8,15 +8,17 @@ Gulp is a terminal software and using it on Windows can be challenging. This gui
 
 *~ Introduction ~*
 
-*Do you want your life to be easier and to have more free time? No? Get out and continue being miserable. Oh, was that a yes? Good - please proceed. In thirty minutes to a couple hours (depending on how slow you are) you'll have task automation set up to work for you while you work. While you code and hit ctrl+s on one of your file that is watched by Gulp, Gulp will compile your SCSS file to CSS, clean unused CSS, add missing css prefixes, optimize your CSS file, minify it then rename it it *.min.css, compress all JS files to one file, beautify it, minify it then rename it to *.min.js, and optimize your images to smallest possible filesize without quality loss, all of these tasks would be done in few milliseconds, then finally refresh your browser so you can see changes you just made. It's a beautiful tasker.*
+*Do you want your life to be easier and to have more free time? No? Get out and continue being miserable. Oh, was that a yes? Good - please proceed. In thirty minutes to a couple hours (depending on how slow you are) you'll have task automation set up to work for you while you work.*
 
-*It will help you finish projects faster and more effectively. [You can learn more about how Gulpis useful](#why-is-gulp-useful) and take a look at some of their plugins that could help you in web development.*
+*While you code and hit CTRL+S on one of your file that is watched by Gulp, Gulp will compile your SCSS file to CSS, clean unused CSS, add missing css prefixes, optimize your CSS file, minify it then rename it it *.min.css, compress all JS files to one file, beautify it, minify it then rename it to *.min.js, and optimize your images to smallest possible filesize without quality loss, all only would be done if files are modified and all of these tasks would be done in few milliseconds, then finally refresh your browser so you can see changes you just made on your computer, tablet, phone and other devices.*
+
+*Gulp is configurable, you can add less or more features. Gulp has no task on default. After configuring it to your liking, you'll eventually can't live without it. [You can learn more about how Gulp is useful](#why-is-gulp-useful) and take a look at some of their plugins that could help you in web development.*
 
 ### Table of Contents
 * [Step 1 - Terminal (Windows)](#step-1---terminal-windows)
 * [Step 2 - npm](#step-2---npm)
 * [Step 3 - Gulp](#step-2---gulp)
-* [Why is Gulpuseful?](#why-is-gulp-useful)
+* [Why is Gulp useful?](#why-is-gulp-useful)
 * [Can I just test it?](#can-i-just-test-it)
 
 ## Step 1 - Terminal (Windows)
@@ -62,23 +64,23 @@ We need npm to install Gulp, so we're going to do that.
 2. When installed, restart cmder and enter `npm` in terminal to see if it's working properly, i.e it should look like [this](http://i.imgur.com/ef2INPb.png). If it does, proceed to the next step.
 
 ## Step 3 - Gulp
-Finally we reach the Gulpsection. This isn't going to be quick and short. Installation will be quick, but configuration for your web development workspace... not really. Trust me, it will be worth it in long run, I will convince you of that.
+Finally we reach the Gulp section. This isn't going to be quick and short. Installation will be quick, but configuration for your web development workspace... not really. Trust me, it will be worth it in long run, I will convince you of that.
 
 1. Open a terminal (cmder) and install Gulpglobally with this terminal command: `npm install --global gulp`. It should look something like [this](http://i.imgur.com/nLfKlVv.png).
 
 2. Congratulations! You installed Gulp!
 
-Good job. Maybe it was easy, maybe it was not, but you made it. You installed Gulpusing a terminal on *Windows*!
+Good job. Maybe it was easy, maybe it was not, but you made it. You installed Gulp using a terminal on *Windows*!
 
-**You already have Gulpinstalled, you're set. All you have to do is set it up for your particular work environment, as everyone has different configurations! Go to Google and find a Gulptutorial for beginners to start learning how to configure gulpfile.js, install plugins and make it work for your workflow.**
+**You already have Gulp installed, you're set. All you have to do is set it up for your particular work environment, as everyone has different configurations! Go to Google and find a Gulp tutorial for beginners to start learning how to configure gulpfile.js, install plugins and make it work for your workflow.**
 
-**I also listed useful Gulpplugins below that you can use it as a reference after becoming more familiar with Gulpconfiguration from tutorials you find.**
+**I also listed useful Gulp plugins below that you can use it as a reference after becoming more familiar with Gulp configuration from tutorials you find.**
 
-## Why is Gulpuseful?
+## Why is Gulp useful?
 Gulp is an automatic tool that help you out with several web development related tasks such as: 
 
 * **[browser-sync](https://www.browsersync.io/)** — fires up a local web server `(localhost:3000 for own computer, 198.168.x.x:3001 for other devices, etc)` for all local devices and browsers to access. It auto-refreshes on any file save (and can be configured to watch certain folders), even when you replace an image with new one. You can view your website on your computer, tablet, mobile device and other devices while coding. You can use dev tool freely, while Brackets' live preview would crash if you do that.
-* **[gulp-sass](https://www.npmjs.com/package/gulp-sass)** — compiles SCSS to CSS files before BrowserSync loads, highly configurable. You'll need [gulp-plumber](https://www.npmjs.com/package/gulp-plumber) to stop Gulpfrom crashing if SASS produces any error.
+* **[gulp-sass](https://www.npmjs.com/package/gulp-sass)** — compiles SCSS to CSS files before BrowserSync loads, highly configurable. You'll need [gulp-plumber](https://www.npmjs.com/package/gulp-plumber) to stop Gulp from crashing if SASS produces any error.
 * **[gulp-concat](https://github.com/contra/gulp-concat)** — it is normal to have several separated external dependencies files like jQuery, Modernizr, and more, along with linking them all in HTML/PHP files. With concat, it can compile all of these js files to one vendor.js file.
 * **[gulp-uglify](https://github.com/terinjokes/gulp-uglify)** — remember how we compiled several js files to one vendor.js file? Let us minify it, too! Remember, it is all done automatically. Every time you edit one of js file, gulp-concat and gulp-uglify will repeat the procedure and make it ready.
 * **[gulp-rename](https://www.npmjs.com/package/gulp-rename)** — instead of having minified vendor.js, let's rename it to vendor.min.js. Automatically, of course.
@@ -131,8 +133,8 @@ It all must be configured in `gulpfile.js`.
 * **[gulp-spritesmith](https://www.npmjs.com/package/gulp-spritesmith)** — converts images to a spritesheet and outputs CSS variables
 
 ###Others
-* **[gulp-watch](https://www.npmjs.com/package/gulp-watch)** — a task that watch files, and when a file get modified or updated, it will run specified Gulptasks. It is an essential Gulpplugin and the tutorial you find will probably mention it.
-* **[gulp-notify](https://www.npmjs.com/package/gulp-notify)** — sends system error notification when Gulptask fails.
+* **[gulp-watch](https://www.npmjs.com/package/gulp-watch)** — a task that watch files, and when a file get modified or updated, it will run specified Gulp tasks. It is an essential Gulp plugin and the tutorial you find will probably mention it.
+* **[gulp-notify](https://www.npmjs.com/package/gulp-notify)** — sends system error notification when Gulp task fails.
 
 ## Can I just test it?
 
@@ -140,17 +142,17 @@ Sure, I have a repo for you to see what happens when you run Gulp.
 
 1. Download this folder in my [repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp).
 
-This repo has standard bootstrap CSS and JS, minimal index.html, blank main.scss and configured gulpfile.js with following Gulpplugins:
+This repo has standard bootstrap CSS and JS, minimal index.html, blank main.scss and configured gulpfile.js with following Gulp plugins:
 * **BrowserSync** — automatically refresh in browser when the watched file is saved.
 * **SCSS compiler** — automatically compiles SCSS to CSS on save. It compiles `/scss/main.scss` to `/css/main.css` so HTML file can read it.
-* **Plumber** — prevents Gulpcrash on SCSS error.
+* **Plumber** — prevents Gulp crash on SCSS error.
 
 2. Navigate to this folder /gulp/ with your terminal with `cd` (Windows only: instead of navigating, you can add cmder to context menu [with a .reg file](https://gist.github.com/jojobyte/66c8346ed8948b9b395f). Of course, you need to edit paths to your path to cmder.exe file in a .reg file before running it.)
 
-3. Install dependencies by running `npm install --save-dev` in terminal. It reads gulpfile.js, then downloads and installs necessary files for Gulpto run. (You need to be in 'gulp' folder to do this)
+3. Install dependencies by running `npm install --save-dev` in terminal. It reads gulpfile.js, then downloads and installs necessary files for Gulp to run. (You need to be in 'gulp' folder to do this)
 
-4. Finally, run `gulp`. It will take several seconds to boot up a web server, boot up these scripts and then it will be up and running. You also need to be in Gulpfolder to do this.
+4. Finally, run `gulp`. It will take several seconds to boot up a web server, boot up these scripts and then it will be up and running. You also need to be in Gulp folder to do this.
 
-5. Any changes you make will be auto-refreshed and applied to the site. You can write regular CSS in .scss file and SCSS compiler will compile it to other CSS file and BrowserSync fires again and browser reloads to display the change. If Gulpcrashed, just run `gulp` again.
+5. Any changes you make will be auto-refreshed and applied to the site. You can write regular CSS in .scss file and SCSS compiler will compile it to other CSS file and BrowserSync fires again and browser reloads to display the change. If Gulp crashed, just run `gulp` again.
 
 If you use Bootstrap, you can use my repo as a base to start a new website. **Configure and embrace Gulp!** 💪
