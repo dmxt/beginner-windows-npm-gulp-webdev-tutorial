@@ -140,7 +140,7 @@ It all must be configured in `gulpfile.js`.
 
 Sure, I have a repo for you to see what happens when you run Gulp.
 
-1. Download this folder in my [repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp).
+1. Download this folder in [my repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp).
 
 This repo has standard bootstrap CSS and JS, minimal index.html, blank main.scss and configured gulpfile.js with following Gulp plugins:
 * **BrowserSync** — automatically refresh in browser when the watched file is saved.
@@ -155,6 +155,6 @@ This repo has standard bootstrap CSS and JS, minimal index.html, blank main.scss
 
 5. Any changes you make will be auto-refreshed and applied to the site. You can write regular CSS in .scss file and SCSS compiler will compile it to other CSS file and BrowserSync fires again and browser reloads to display the change. If Gulp crashed, just run `gulp` again.
 
-If you use Bootstrap, you can use my repo as a base to start a new website. 
+If you use Bootstrap, you can use [my repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp) as a base to start a new website. 
 
 ###Configure and embrace Gulp! 💪
