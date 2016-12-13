@@ -155,4 +155,6 @@ This repo has standard bootstrap CSS and JS, minimal index.html, blank main.scss
 
 5. Any changes you make will be auto-refreshed and applied to the site. You can write regular CSS in .scss file and SCSS compiler will compile it to other CSS file and BrowserSync fires again and browser reloads to display the change. If Gulp crashed, just run `gulp` again.
 
-If you use Bootstrap, you can use my repo as a base to start a new website. **Configure and embrace Gulp!** 💪
+If you use Bootstrap, you can use my repo as a base to start a new website. 
+
+###Configure and embrace Gulp! 💪
