@@ -8,7 +8,12 @@ Gulp is a terminal software and using it on Windows can be challenging. This gui
 
 *Do you want your life to be easier and to have more free time? No? Get out and continue being miserable. Oh, was that a yes? Good - please proceed. In thirty minutes to a couple hours (depending on how slow you are) you'll have task automation set up to work for you while you work.*
 
-*While you code and hit CTRL+S on one of your file that is watched by Gulp, Gulp will compile your SCSS file to CSS, clean unused CSS, add missing css prefixes, optimize your CSS file, minify it then rename it it *.min.css, compress all JS files to one file, beautify it, minify it then rename it to *.min.js, and optimize your images to smallest possible filesize without quality loss, all only would be done if files are modified and all of these tasks would be done in few milliseconds, then finally refresh your browser so you can see changes you just made on your computer, tablet, phone and other devices. All will be outputted on console so you can watch what just happened.*
+*While you code and hit CTRL+S on one of your file that is watched by Gulp, depending on file format that got modified and saved, if it was:
+* **SCSS** - Gulp will compile your SCSS file to CSS, clean unused CSS, add missing css prefixes, optimize your CSS file, minify it then rename it it *.min.css
+* **JS** - Gulp wil compress all JS files to one file, beautify it, minify it then rename it to *.min.js
+* **Images** - Gulp will optimize your images to smallest possible filesize without quality loss
+
+*All only would be done if files are modified and all of these tasks would be done in few milliseconds, then finally refresh your browser so you can see changes you just made on your computer, tablet, phone and other devices. All will be outputted on console so you can watch what just happened. And there's thousands more plugins that are not mentioned in this tutorial, but only for you to find for your own type of workflow.*
 
 *Gulp is configurable, you can add less or more features. Gulp has no task on default. After configuring it to your liking, you'll eventually can't live without it. [You can learn more about how Gulp is useful](#useful-gulp-plugins) and take a look at some of their plugins that could help you in web development.*
 
