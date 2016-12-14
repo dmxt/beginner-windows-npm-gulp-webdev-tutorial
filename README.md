@@ -11,7 +11,7 @@ Gulp is a terminal software and using it on Windows can be challenging. This gui
 *While you code and hit CTRL+S on one of your file that is watched by Gulp, depending on file format that got modified and saved, if the file format, which got modified and saved, was:*
 * **SCSS** - *Gulp will compile your SCSS file to CSS, clean unused CSS, add missing css prefixes, optimize your CSS file, minify it then rename it it *.min.css*
 * **JS** - *Gulp will compress all JS files to one file, beautify it, minify it then rename it to *.min.js*
-* **Images** - *Gulp will optimize your images to smallest possible filesize without quality loss (similar to [Optimizilla](http://optimizilla.com/)*
+* **Images** - *Gulp will optimize your images to smallest possible filesize without quality loss (similar to [Optimizilla](http://optimizilla.com/))*
 
 *All only would be done if files are modified and all of these tasks would be done in few milliseconds, then finally refresh your browser so you can see changes you just made on your computer, tablet, phone and other devices. All will be outputted on console so you can watch what just happened. And there's thousands more plugins that are not mentioned in this tutorial, but only for you to find for your own type of workflow, you can find them on [this site](https://www.npmjs.com/), Google or articles by authors who recommend plugins.*
 
