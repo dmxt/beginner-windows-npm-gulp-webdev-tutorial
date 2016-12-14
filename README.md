@@ -8,7 +8,7 @@ Gulp is a terminal software and using it on Windows can be challenging. This gui
 
 *Do you want your life to be easier and to have more free time? No? Get out and continue being miserable. Oh, was that a yes? Good - please proceed. In thirty minutes to a couple hours (depending on how slow you are) you'll have task automation set up to work for you while you work.*
 
-*While you code and hit CTRL+S on one of your file that is watched by Gulp, depending on file format that got modified and saved, if it was:*
+*While you code and hit CTRL+S on one of your file that is watched by Gulp, depending on file format that got modified and saved, if the file format, which got modified and saved, was:*
 * **SCSS** - *Gulp will compile your SCSS file to CSS, clean unused CSS, add missing css prefixes, optimize your CSS file, minify it then rename it it *.min.css*
 * **JS** - *Gulp wil compress all JS files to one file, beautify it, minify it then rename it to \*.min.js*
 * **Images** - *Gulp will optimize your images to smallest possible filesize without quality loss*
