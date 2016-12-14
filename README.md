@@ -29,7 +29,7 @@ Gulp is a terminal software and using it on Windows can be challenging. This gui
 
 Ok, Windows users, you need a terminal to use npm and Gulp. A functional terminal is available out of the box on Linux and macOS, and Windows has it as well but cmd and PowerShell is not sustainable for in comparison with UNIX console. You do not need to be experienced with terminal to use it properly, but learning some basics would help, such as a few commands like `cd`, `ls`, `mkdir`, `rm`, highlight to copy, and right-click to paste. You can learn it [here](https://www.codecademy.com/learn/learn-the-command-line). It will help you in long run so you won't get stuck at a terminal for minutes to hours over a small mistake. If you don't like this site, [this alternative](https://linuxjourney.com/lesson/less-command) might work.
 
-We will use cmder as a replacement terminal. However, it is a separate software and does not directly replace default terminal.
+We will use cmder as a replacement terminal. However, it is a separate software and does not directly replace default terminal, so I make a shortcut to it in Start menu and use a .reg file (to be mentioned later in "Can I just test it?" chapter) to enable context menu feature.
 
 > *Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start.*
 
