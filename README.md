@@ -29,8 +29,8 @@ _Gulp is configurable, you can add less or more features. Gulp has no task on de
 It will teach you how to:
 
 * What is gulp and why you should start using it?
-* Install a proper terminal with syntax highlightings on Windows to replace default cmd.exe (terrible terminal with no basic comfort function and zero syntax highlightings whatsoever)
-* Install npm, a required library, and gulp.
+* Install a proper terminal with syntax highlighting on Windows to replace default cmd.exe (Not required for Linux and macOS)
+* Install npm, a package manager. Then install gulp globally.
 * Test run a pre-made gulp script for you to test and have a good idea of what gulp does.
 * Suggestions and recommendations for gulp plugins if you would like to build your own gulp script that is tailored for your own front-end development workflow.
 
