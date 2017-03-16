@@ -6,16 +6,16 @@ Gulp is a terminal software and using it on Windows can be challenging. This gui
 
 *~ Introduction ~*
 
-*Do you want your life to be easier and to have more free time? No? Get out and continue being miserable. Oh, was that a yes? Good - please proceed. In thirty minutes to a couple hours (depending on how slow you are) you'll have task automation set up to work for you while you work.*
+_Do you want your life to be easier and to have more free time? No? Get out and continue being miserable. Oh, was that a yes? Good - please proceed. In thirty minutes to a couple hours (depending on how slow you are) you'll have task automation set up to work for you while you work._
 
-*While you code and hit CTRL+S on one of your file that is watched by Gulp, depending on file format that got modified and saved, if the file format, which got modified and saved, was:*
+_While you code and hit CTRL+S on one of your file that is watched by Gulp, depending on file format that got modified and saved, if the file format, which got modified and saved, was:*
 * **SCSS** - *Gulp will compile your SCSS file to CSS, clean unused CSS, add missing css prefixes, optimize your CSS file, minify it then rename it it *.min.css for browser to read (browser cannot read SCSS, hence CSS preprocessor).*
 * **JS** - *Gulp will compress all JS files to one file, beautify it, minify it then rename it to *.min.js*
-* **Images** - *Gulp will optimize your images to smallest possible filesize without quality loss (similar to [Optimizilla](http://optimizilla.com/))*
+* **Images** - *Gulp will optimize your images to smallest possible filesize without quality loss (similar to [Optimizilla](http://optimizilla.com/))_
 
-*All only would be done if files are modified and all of these tasks would be done in few milliseconds, then finally refresh your browser so you can see changes you just made on your computer, tablet, phone and other devices. All will be outputted on console so you can watch what just happened. And there's thousands more plugins that are not mentioned in this tutorial, but only for you to find for your own type of workflow, you can find them on [this site](https://www.npmjs.com/), Google or articles by authors who recommend plugins.*
+_All only would be done if files are modified and all of these tasks would be done in few milliseconds, then finally refresh your browser so you can see changes you just made on your computer, tablet, phone and other devices. All will be outputted on console so you can watch what just happened. And there's thousands more plugins that are not mentioned in this tutorial, but only for you to find for your own type of workflow, you can find them on [this site](https://www.npmjs.com/), Google or articles by authors who recommend plugins._
 
-*Gulp is configurable, you can add less or more features. Gulp has no task on default. After configuring it to your liking, you'll eventually can't live without it. [You can learn more about how Gulp is useful](#useful-gulp-plugins) and take a look at some of their plugins that could help you in web development.*
+_Gulp is configurable, you can add less or more features. Gulp has no task on default. After configuring it to your liking, you'll eventually can't live without it. [You can learn more about how Gulp is useful](#useful-gulp-plugins) and take a look at some of their plugins that could help you in web development._
 
 ### Table of Contents
 * [Step 1 - Terminal (Windows)](#step-1---terminal-windows)
@@ -31,7 +31,7 @@ Ok, Windows users, you need a terminal to use npm and Gulp. A functional termina
 
 We will use cmder as a replacement terminal. However, it is a separate software and does not directly replace default terminal, so I make a shortcut to it in Start menu and use a .reg file (to be mentioned later in "Can I just test it?" chapter) to enable context menu feature.
 
-> *Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start.*
+> _Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start._
 
 1. Download and install [cmder](http://cmder.net/). I use the full version because it comes with git. Ensure to check the checkbox labelled "Add to PATH" during the installation.
 
@@ -75,12 +75,13 @@ Finally we reach the Gulp section. This isn't going to be quick and short. Insta
 
 Good job. Maybe it was easy, maybe it was not, but you made it. You installed Gulp using a terminal on *Windows*!
 
-**You already have Gulp installed, you're set. All you have to do is set it up for your particular work environment, as everyone has different configurations! Go to Google and find a Gulp tutorial for beginners to start learning how to configure gulpfile.js, install plugins and make it work for your workflow. You can try [this tutorial](https://css-tricks.com/gulp-for-beginners/) or just use [Google](https://www.google.com/search?q=gulp+tutorial+beginner).**
+## Step 4 - Configuring your own `gulpfile.js`
 
-Try to familiarze yourself with Gulp and gulpfile.js configuration with tutorials, then you can create your own configuration for your development workflow. I listed some useful Gulp pugins below you can use as a reference. Most of these plugins have a basic tutorial expecting that you already know how to configure gulpfile.js, that's why knowing how to configure Gulp is important.
+**You already have Gulp installed, you're set. All you have to do is set it up for your particular work environment, as everyone has different workflow and configurations! Go to Google and find some half-decent Gulp tutorial for beginners to start learning how to configure gulpfile.js, install plugins and make it work for your workflow. You can try [this tutorial](https://css-tricks.com/gulp-for-beginners/) or just use [Google](https://www.google.com/search?q=gulp+tutorial+beginner).**
 
-## Useful Gulp plugins
-**⚠️ Note: If you have trouble with one of these plugins, do the following: First, make sure you're not being stupid. Second, if it's actually plugins fault, not your fault, then you can check their GitHub repo and search or open an issue about the problem. If the plugin is active, you should get a solution pretty quickly.**
+Try to familiarze yourself with Gulp and gulpfile.js configuration with tutorials, then you can create your own configuration for your development workflow. I listed some useful Gulp pugins below you can use as a reference, however you wouldn't need every single of plugins listed below. Just get plugins that will be useful for your own typical workflow. Most of these plugins have a basic tutorial expecting that you already know how to configure gulpfile.js, that's why knowing how to configure Gulp is important, by referring to above paragraph "Start learning how to configure gulpfile.js".
+
+_**⚠️ Note:** If you have trouble with one of these plugins, ensure that it's not an issue our end. If you can't figure out on what's going on, just check the plugin GitHub repo (rarely, if GitHub repo is not available, try using their available discussion tool) and search or open an issue about the problem. If the plugin is active, you should get responses with solutions quickly._
 
 Gulp is an automatic tool that help you out with several web development related tasks such as: 
 
@@ -92,17 +93,17 @@ Gulp is an automatic tool that help you out with several web development related
 
 Here's a list of some more Gulp's plugins that can be useful for you. Any more than that, you will need to use a search engine or [npmjs.com](npmjs.com).
 
-###HTML
+### HTML
 * **[gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin)** — minifies HTML files
 * **[htmlhint](https://www.npmjs.com/package/gulp-htmlhint)** — HTML linter/hinter
 
-###CSS
+### CSS
 * **[cssbeautify](https://www.npmjs.com/package/cssbeautify)** — CSS beautifier
 * **[gulp-uncss](https://www.npmjs.com/package/gulp-uncss)** — cleans unused CSS files (run before CSS autoprefixer, optimizer, minifier and renamer if you have these)
 * **[gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)** — CSS autoprefixer
 * **[gulp-csslint](https://www.npmjs.com/package/gulp-csslint)** — CSS linter
 
-####CSS optimizer, minifier and renamer
+#### CSS optimizer, minifier and renamer
 **[gulp-csso](https://github.com/ben-eb/gulp-csso)** — this is an advanced CSS optimizer that optimize from
 
 ```
@@ -127,17 +128,17 @@ background: red url('example.png') no-repeat / cover;
 }
 ```
 
-I consider that very impressive. (Maybe you just learned little CSS here, hehe)
+Impressive, especially for newer developers who don't know all shortified CSS .
 
-After the optimization, run **[gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css)** if you want to minify your CSS. Don't forget to use **[gulp-rename](https://www.npmjs.com/package/gulp-rename)** to rename the file from \*.css to \*.min.css. 
+_Notice: If you choose to add the above `gulp-csso` plugins, the following plugins below are meant to be run after this plugin, in order._
+* **[gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css)** — minifies chosen CSS files.
+* **[gulp-rename](https://www.npmjs.com/package/gulp-rename)** — if you minified CSS files, use this plugin to rename your minified files from `*.css` to `*.min.css`.
 
-It all must be configured in `gulpfile.js`.
-
-###Images
+### Images
 * **[gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)** — compresses images to lower filesize without quality loss
 * **[gulp-spritesmith](https://www.npmjs.com/package/gulp-spritesmith)** — converts images to a spritesheet and outputs CSS variables
 
-###Others
+### Others
 * **[gulp-watch](https://www.npmjs.com/package/gulp-watch)** — a task that watch files, and when a file get modified or updated, it will run specified Gulp tasks. It is an essential Gulp plugin and the tutorial you find will probably mention it.
 * **[gulp-notify](https://www.npmjs.com/package/gulp-notify)** — sends system error notification when Gulp task fails.
 
@@ -162,4 +163,4 @@ This repo has standard bootstrap CSS and JS, minimal index.html, blank main.scss
 
 If you use Bootstrap, you can use [my repo](https://github.com/dmxt/bootstrap-scss-gulp-starter-kit/tree/master/bootstrap-scss-gulp) as a base to start a new website. 
 
-###Configure and embrace Gulp! 💪
+### Configure and embrace Gulp! 💪
