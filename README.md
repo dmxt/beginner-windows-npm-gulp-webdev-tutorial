@@ -19,10 +19,20 @@ _Gulp is configurable, you can add less or more features. Gulp has no task on de
 
 ### Table of Contents
 * [Step 1 - Terminal (Windows)](#step-1---terminal-windows)
-* [Step 2 - npm](#step-2---npm)
-* [Step 3 - Gulp](#step-2---gulp)
-* [Why is Gulp useful?](#useful-gulp-plugins)
+* [Step 2 - Install npm](#step-2---install-npm)
+* [Step 3 - Install Gulp](#step-3---install-gulp)
+* [Step 4 - Configuring your own `gulpfile.js`](#step-4---configuring-your-own-gulpfilejs)
 * [Can I just test it?](#can-i-just-test-it)
+
+### Context
+
+It will teach you how to:
+
+* What is gulp and why you should start using it?
+* Install a proper terminal with syntax highlightings on Windows to replace default cmd.exe (terrible terminal with no basic comfort function and zero syntax highlightings whatsoever)
+* Install npm, a required library, and gulp.
+* Test run a pre-made gulp script for you to test and have a good idea of what gulp does.
+* Suggestions and recommendations for gulp plugins if you would like to build your own gulp script that is tailored for your own front-end development workflow.
 
 ## Step 1 - Terminal (Windows)
 **⚠️ Note: If you do not use Windows, you can go straight to Step 2.** Step 1 is for Windows users to install a UNIX-like terminal that is usable for work - Linux and macOS already have one.
@@ -58,7 +68,7 @@ If you have never used cmder before, learning few hotkeys will help you in long 
 
 *[Source: http://cmder.net/](http://cmder.net/)*
 
-## Step 2 - npm
+## Step 2 - Install npm
 
 We need npm to install Gulp, so we're going to do that.
 
@@ -66,10 +76,10 @@ We need npm to install Gulp, so we're going to do that.
 
 2. When installed, restart cmder and enter `npm` in terminal to see if it's working properly, i.e it should look like [this](http://i.imgur.com/ef2INPb.png). If it does, proceed to the next step.
 
-## Step 3 - Gulp
+## Step 3 - Install Gulp
 Finally we reach the Gulp section. This isn't going to be quick and short. Installation will be quick, but configuration for your web development workspace... not really. Trust me, it will be worth it in long run, I will convince you of that.
 
-1. Open a terminal (cmder) and install Gulpglobally with this terminal command: `npm install --global gulp`. It should look something like [this](http://i.imgur.com/nLfKlVv.png).
+1. Open a terminal (cmder) and install Gulp globally with this terminal command: `npm install --global gulp`. It should look something like [this](http://i.imgur.com/nLfKlVv.png).
 
 2. Congratulations! You installed Gulp!
 
