@@ -2,16 +2,16 @@
 
 # Start using Gulp in minutes
 
-Gulp is a terminal software and using it on Windows can be challenging. This guide will help you to start using Gulp, however this guide is not limited to Windows, it also applies to Linux and macOS users.
+Gulp is a terminal software and using it on Windows can be challenging. This guide will help you to start using Gulp, however this guide is not limited to Windows, it also applies to Linux and macOS users. _The installation process, Step 1, is for Windows users only. Linux and macOS users can go straight to Step 2, because they have the required installation process pre-installed on their system._
 
-*~ Introduction ~*
+### _~ Introduction_
 
 _Do you want your life to be easier and to have more free time? No? Get out and continue being miserable. Oh, was that a yes? Good - please proceed. In thirty minutes to a couple hours (depending on how slow you are) you'll have task automation set up to work for you while you work._
 
-_While you code and hit CTRL+S on one of your file that is watched by Gulp, depending on file format that got modified and saved, if the file format, which got modified and saved, was:*
-* **SCSS** - *Gulp will compile your SCSS file to CSS, clean unused CSS, add missing css prefixes, optimize your CSS file, minify it then rename it it *.min.css for browser to read (browser cannot read SCSS, hence CSS preprocessor).*
-* **JS** - *Gulp will compress all JS files to one file, beautify it, minify it then rename it to *.min.js*
-* **Images** - *Gulp will optimize your images to smallest possible filesize without quality loss (similar to [Optimizilla](http://optimizilla.com/))_
+_While you code and hit CTRL+S on one of your file that is watched by Gulp, depending on file format that got modified and saved, if the file format, which got modified and saved, was:_
+* **SCSS** - Gulp will compile your SCSS file to CSS, clean unused CSS, add missing css prefixes, optimize your CSS file, minify it then rename it it *.min.css for browser to read (browser cannot read SCSS, hence CSS preprocessor).
+* **JS** - Gulp will compress all JS files to one file, beautify it, minify it then rename it to *.min.js
+* **Images** - Gulp will optimize your images to smallest possible filesize without quality loss (similar to [Optimizilla](http://optimizilla.com/))
 
 _All only would be done if files are modified and all of these tasks would be done in few milliseconds, then finally refresh your browser so you can see changes you just made on your computer, tablet, phone and other devices. All will be outputted on console so you can watch what just happened. And there's thousands more plugins that are not mentioned in this tutorial, but only for you to find for your own type of workflow, you can find them on [this site](https://www.npmjs.com/), Google or articles by authors who recommend plugins._
 
