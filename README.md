@@ -1,5 +1,20 @@
 ![Gulp logo](http://i.imgur.com/RptJM5Q.png)
 
+# First of all, what is Gulp and how is going to affect my life?
+
+Gulp is a automation tool for web developers, front-end and back-end, and it will speed up your development process. Please refer to [Introduction](#~-Introduction-~) for more detailed information.
+
+# What will happen to me if I read the entire thing?
+
+_*What I know:* Everybody is interested in what they'll gain after spending certain amount of time reading unknown text, so I'll give you a brief summary of what you'll learn from reading this, properly at least, and each steps should be held to your hand all way through, however, after the end of the tutorial, you're on your own. Ha. Nah, there's Google too. If there is any complication or difficulties, please get it to my attention by reporting it in [issues page](https://github.com/dmxt/beginner-gulp-tutorial-on-windows) or just use Google. This page will do the following:_
+
+* _It will brief you what is Gulp, how it works and how it would benefit your development environment._
+* _Gets you to install pre-required files and scripts to get Gulp up and running_
+* _It will teach you how to configure the main Gulp file to make it function the way how you want it, so you can make it do what you want it to do, preparing you for your future of the beautiful life of friendships with Gulp. This time you would be held all way through so it won't get too difficult. If it does, then my writing is to the blame and please report it in [issues page](https://github.com/dmxt/beginner-gulp-tutorial-on-windows). Or just use a sample config file with few most useful scripts for developers._
+* _It will show you a list of several most popular and useful Gulp plugins that may interest you to set it up for your own Gulp script for your brand new development environment_*
+* _If you're not interested in spending 20 minutes to hours configuring gulp to see if it would work out for you, you can just use premade script I wrote that allow you to just dive head-first right in Gulp and see if you like it enough. I hope you will.*
+
+
 # Start using Gulp in minutes
 
 Gulp is a terminal software and using it on Windows can be challenging. This guide will help you to start using Gulp, however this guide is not limited to Windows, it also applies to Linux and macOS users. _The installation process, Step 1, is for Windows users only. Linux and macOS users can go straight to Step 2, because they have the required installation process pre-installed on their system._
