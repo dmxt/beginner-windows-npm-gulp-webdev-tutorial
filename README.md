@@ -19,16 +19,14 @@ Gulp is an automation tool commonly for front and back-end web developers and it
 * _It will brief you what is Gulp, how it works and how it would benefit your development environment._
 * _Gets you to install pre-required files and scripts to get Gulp up and running_
 * _It will teach you how to configure the main Gulp file to make it function the way how you want it, so you can make it do what you want it to do, preparing you for your future of the beautiful life of friendships with Gulp. This time you would be held all way through so it won't get too difficult. If it does, then my writing is to the blame and please report it in [issues page](https://github.com/dmxt/beginner-gulp-tutorial-on-windows). Or just use a sample config file with few most useful scripts for developers._
-* _It will show you a list of several most popular and useful Gulp plugins that may interest you to set it up for your own Gulp script for your brand new development environment_*
-* _If you're not interested in spending 20 minutes to hours configuring gulp to see if it would work out for you, you can just use premade script I wrote that allow you to just dive head-first right in Gulp and see if you like it enough. I hope you will.*
+* _It will show you a list of several most popular and useful Gulp plugins that may interest you to set it up for your own Gulp script for your brand new development environment_
+* _If you're not interested in spending 20 minutes to hours configuring gulp to see if it would work out for you, you can just use premade script I wrote that allow you to just dive head-first right in Gulp and see if you like it enough. I hope you will._
 
 # Start using Gulp in minutes
 
 Gulp is a terminal software and using it on Windows can be challenging. This guide will help you to start using Gulp, however this guide is not limited to Windows, it also applies to Linux and macOS users. _The installation process, Step 1, is for Windows users only. Linux and macOS users can go straight to Step 2, because they have the required installation process pre-installed on their system._
 
----
-
-### Table of Contents
+# Table of Contents
 * [Step 1 - Terminal (Windows)](#step-1---terminal-windows)
 * [Step 2 - Install npm](#step-2---install-npm)
 * [Step 3 - Install Gulp](#step-3---install-gulp)
@@ -37,13 +35,12 @@ Gulp is a terminal software and using it on Windows can be challenging. This gui
 
 ### Context
 
-It will teach you how to:
-
-* What is gulp and why you should start using it?
-* Install a proper terminal with syntax highlighting on Windows to replace default cmd.exe (Not required for Linux and macOS)
-* Install npm, a package manager. Then install gulp globally.
-* Test run a pre-made gulp script for you to test and have a good idea of what gulp does.
-* Suggestions and recommendations for gulp plugins if you would like to build your own gulp script that is tailored for your own front-end development workflow.
+**It will teach you how to:**
+**Step 1 - Terminal** Install a proper terminal with syntax highlighting on Windows to replace default cmd.exe (Not required for Linux and macOS)
+** Step 2- Install npm** Install npm, a package manager.
+** Step 3 - Install gulp** Intall gulp globally.
+** Step 4 - Configuring your own `gulpfile.js`** Teaches you how to configure your own `gulpfile.js` and a compiled list of suggestions and recommendations for gulp plugins if you would like to build your own gulp script that is tailored for your own development workflow.
+**Can I just test it?** Test run a pre-made gulp script for you to test and have a good idea of what gulp does.
 
 ## Step 1 - Terminal (Windows)
 **⚠️ Note: If you do not use Windows, you can go straight to Step 2.** Step 1 is for Windows users to install a UNIX-like terminal that is usable for work - Linux and macOS already have one.
