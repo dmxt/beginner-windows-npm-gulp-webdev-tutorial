@@ -2,11 +2,19 @@
 
 # First of all, what is Gulp and how is going to affect my life?
 
-Gulp is a automation tool for web developers, front-end and back-end, and it will speed up your development process. Please refer to [Introduction](#-introduction) for more detailed information.
+Gulp is an automation tool commonly for front and back-end web developers and it will speed up your development process because it does things automatically in background which you otherwise would have to do yourself manually without it, like: 
+
+* Auto refresh browser by pressing CTRL+S on any one of project file. _Yes, Bracket program has it, but it only support Chrome, messes up when you try to use developer tool and you can't open it from mobile device and you also can't run it publically by publicizing your local IP._
+* Auto beautify, optimizing, auto-prefixing, compiling, minifying static files.
+* Auto compress all bunch of js dependency files to one minified js file.
+* Auto optimize images using superior algorithm and no quality loss.
+* CSS optimizer, it's very advanced little piece of script. Please take a look at [CSS Optimizer](#css-optimizer-minifier-and-renamer) for more information.
+* Plumber and Gulp Notify — (Plumber) Blocks terminal crash on error, and (Gulp Notify) notifies you that there's SCSS compile error in a notification area.
+* And many more, there's thousands and thousands of Gulp scripts for all uses developers somehow need. Many I've yet to discover so far.
 
 # What will happen to me if I read the entire thing?
 
-_**What I know:** Everybody is interested in what they'll gain after spending certain amount of time reading unknown text, so I'll give you a brief summary of what you'll learn from reading this, properly at least, and each steps should be held to your hand all way through, If there is any complication or difficulties, please get it to my attention by reporting it in [issues page](https://github.com/dmxt/beginner-gulp-tutorial-on-windows) or just use Google. However, after the end of the tutorial, then you're on your own, ha. Nah, don't worry, there's Google and helpful bunch of people on Stack Overflow... just be kind and it will get you far. This page will do the following:_
+**What I know:** Everybody is interested in what they'll gain after spending certain amount of time reading unknown text, so I'll give you a brief summary of what you'll learn from reading this, properly at least, and each steps should be held to your hand all way through, If there is any complication or difficulties, please get it to my attention by reporting it in [issues page](https://github.com/dmxt/beginner-gulp-tutorial-on-windows) or just use Google. However, after the end of the tutorial, then you're on your own, ha. Nah, don't worry, there's Google and helpful bunch of people on Stack Overflow... just be kind and it will get you far. This page will do the following:
 
 * _It will brief you what is Gulp, how it works and how it would benefit your development environment._
 * _Gets you to install pre-required files and scripts to get Gulp up and running_
@@ -14,23 +22,11 @@ _**What I know:** Everybody is interested in what they'll gain after spending ce
 * _It will show you a list of several most popular and useful Gulp plugins that may interest you to set it up for your own Gulp script for your brand new development environment_*
 * _If you're not interested in spending 20 minutes to hours configuring gulp to see if it would work out for you, you can just use premade script I wrote that allow you to just dive head-first right in Gulp and see if you like it enough. I hope you will.*
 
-
 # Start using Gulp in minutes
 
 Gulp is a terminal software and using it on Windows can be challenging. This guide will help you to start using Gulp, however this guide is not limited to Windows, it also applies to Linux and macOS users. _The installation process, Step 1, is for Windows users only. Linux and macOS users can go straight to Step 2, because they have the required installation process pre-installed on their system._
 
-### _~ Introduction_
-
-_Do you want your life to be easier and to have more free time? No? Get out and continue being miserable. Oh, was that a yes? Good - please proceed. In thirty minutes to a couple hours (depending on how slow you are) you'll have task automation set up to work for you while you work._
-
-_While you code and hit CTRL+S on one of your file that is watched by Gulp, depending on file format that got modified and saved, if the file format, which got modified and saved, was:_
-* **SCSS** - Gulp will compile your SCSS file to CSS, clean unused CSS, add missing css prefixes, optimize your CSS file, minify it then rename it it *.min.css for browser to read (browser cannot read SCSS, hence CSS preprocessor).
-* **JS** - Gulp will compress all JS files to one file, beautify it, minify it then rename it to *.min.js
-* **Images** - Gulp will optimize your images to smallest possible filesize without quality loss (similar to [Optimizilla](http://optimizilla.com/))
-
-_All only would be done if files are modified and all of these tasks would be done in few milliseconds, then finally refresh your browser so you can see changes you just made on your computer, tablet, phone and other devices. All will be outputted on console so you can watch what just happened. And there's thousands more plugins that are not mentioned in this tutorial, but only for you to find for your own type of workflow, you can find them on [this site](https://www.npmjs.com/), Google or articles by authors who recommend plugins._
-
-_Gulp is configurable, you can add less or more features. Gulp has no task on default. After configuring it to your liking, you'll eventually can't live without it. [You can learn more about how Gulp is useful](#useful-gulp-plugins) and take a look at some of their plugins that could help you in web development._
+---
 
 ### Table of Contents
 * [Step 1 - Terminal (Windows)](#step-1---terminal-windows)
