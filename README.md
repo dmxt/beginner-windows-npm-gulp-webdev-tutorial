@@ -4,7 +4,7 @@
 
 Gulp is an automation tool commonly for front and back-end web developers and it will speed up your development process because it does things automatically in background which you otherwise would have to do yourself manually without it, like: 
 
-* Auto refresh browser by pressing CTRL+S on any one of project file. _Yes, Bracket program has it, but it only support Chrome, messes up when you try to use developer tool and you can't open it from mobile device and you also can't run it publically by publicizing your local IP._
+* Auto refresh browser by pressing CTRL+S on any one of project file. _Yes, Bracket program has it, but it only support Chrome, messes up when you try to use developer tool and you can't open it from mobile device and you also can't run it publically by choice._
 * Auto beautify, optimizing, auto-prefixing, compiling, minifying static files.
 * Auto compress all bunch of js dependency files to one minified js file.
 * Auto optimize images using superior algorithm and no quality loss.
