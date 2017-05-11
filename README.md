@@ -2,7 +2,7 @@
 
 # First of all, what is Gulp and how is going to affect my life?
 
-Gulp is a automation tool for web developers, front-end and back-end, and it will speed up your development process. Please refer to [Introduction](###~-Introduction) for more detailed information.
+Gulp is a automation tool for web developers, front-end and back-end, and it will speed up your development process. Please refer to [Introduction](#-introduction) for more detailed information.
 
 # What will happen to me if I read the entire thing?
 
