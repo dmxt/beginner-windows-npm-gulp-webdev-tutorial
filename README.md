@@ -2,11 +2,11 @@
 
 # First of all, what is Gulp and how is going to affect my life?
 
-Gulp is a automation tool for web developers, front-end and back-end, and it will speed up your development process. Please refer to [Introduction](#~-Introduction-~) for more detailed information.
+Gulp is a automation tool for web developers, front-end and back-end, and it will speed up your development process. Please refer to [Introduction](###~-Introduction) for more detailed information.
 
 # What will happen to me if I read the entire thing?
 
-_*What I know:* Everybody is interested in what they'll gain after spending certain amount of time reading unknown text, so I'll give you a brief summary of what you'll learn from reading this, properly at least, and each steps should be held to your hand all way through, however, after the end of the tutorial, you're on your own. Ha. Nah, there's Google too. If there is any complication or difficulties, please get it to my attention by reporting it in [issues page](https://github.com/dmxt/beginner-gulp-tutorial-on-windows) or just use Google. This page will do the following:_
+_**What I know:** Everybody is interested in what they'll gain after spending certain amount of time reading unknown text, so I'll give you a brief summary of what you'll learn from reading this, properly at least, and each steps should be held to your hand all way through, If there is any complication or difficulties, please get it to my attention by reporting it in [issues page](https://github.com/dmxt/beginner-gulp-tutorial-on-windows) or just use Google. However, after the end of the tutorial, then you're on your own, ha. Nah, don't worry, there's Google and helpful bunch of people on Stack Overflow... just be kind and it will get you far. This page will do the following:_
 
 * _It will brief you what is Gulp, how it works and how it would benefit your development environment._
 * _Gets you to install pre-required files and scripts to get Gulp up and running_
