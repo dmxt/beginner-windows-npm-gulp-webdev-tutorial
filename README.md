@@ -72,9 +72,9 @@ As mentioned previously, if you have never used terminal, you should learn termi
 
 If you have never used cmder before, learning few hotkeys will help you in long run. It may share hotkeys with other terminals. The image below is information about cmder that can be found on their site.
 
-![Screenshot from cmder.net](http://i.imgur.com/XXLp3tn.png)
+![Screenshot from cmder.app](https://i.imgur.com/XXLp3tn.png)
 
-*[Source: http://cmder.net/](http://cmder.net/)*
+*[Source: https://cmder.app/](https://cmder.app/)*
 
 ## Step 2 - Install npm
 
