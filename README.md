@@ -51,7 +51,7 @@ We will use cmder as a replacement terminal. However, it is a separate software 
 
 > _Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start._
 
-1. Download and install [cmder](http://cmder.net/). I use the full version because it comes with git. Ensure to check the checkbox labelled "Add to PATH" during the installation.
+1. Download and install [cmder](https://cmder.app/). I use the full version because it comes with git. Ensure to check the checkbox labelled "Add to PATH" during the installation.
 
 2. Open cmder. If you have runtime error when starting cmder, you will probably need to install VS 2015, see [the issue here](https://github.com/cmderdev/cmder/issues/501). If you got different errors, Google/GitHub will get you a fix right away, but if not, report it on their repo issues section.
 
